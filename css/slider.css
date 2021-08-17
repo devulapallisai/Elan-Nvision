@@ -1,0 +1,50 @@
+      html{
+        scroll-behavior: smooth;
+      }
+      .Sponsor {
+        position: relative;
+        height: 100%;
+      }
+      
+      .Sponsor {
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        background: radial-gradient(#f724ab,#2a1f34);
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        min-height: 100%;
+      }
+      .Sponsor h1
+      {
+        font-size:5.3vw;
+      }
+      @media screen and (max-width:800px){
+        .Sponsor h1
+        {
+          font-size: 7.6vh;
+        }
+      }
+      .swiper-container {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
+      }
+      
+      .swiper-slide img {
+        display: block;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-slide img:hover{
+        transform: scale(1.03);
+      }

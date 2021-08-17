@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Added favicon for website -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <title>Elan &amp; &#951;vision</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script>
+        // Added preloader using onload function as below and display property
+        window.onload = function () {
+            document.getElementById('preloader').style.display = "none";
+            document.getElementById('loaded').style.display = "block";
+        }
+    </script>
+    <style>
+        #preloader {
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 350px;
+            width: 350px;
+        }
+
+        #preloader img {
+            height: 300px;
+            width: 300px;
+        }
+
+        #loaded {
+            display: none;
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        ::-webkit-scrollbar-button {
+            display: none;
+        }
+
+        body {
+            -ms-overflow-style: none;
+        }
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/slider.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/about.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Bangers&family=Gorditas&family=Montserrat:wght@300&family=IM+Fell+DW+Pica&family=Permanent+Marker&family=Vast+Shadow&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+    <div id="preloader">
+        <img src="images/loader-gif.gif">
+        <!-- Adding a preloader loader.gif on before loading-->
+    </div>
+    <div id="loaded">
+        <div class="header" id="header">
+            <div class="logo" id="logo"
+                style="position: sticky;top:0;width:100px;height: 100px;top: 2vh;margin-left: 2vw;">
+                <a href="#"><img width="100px" class="logohover" height="100px" src="images/logo.png"></a>
+            </div>
+            <div class="menu-wrap" id="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger"><div></div></div>
+                <div class="menu" style="background: linear-gradient(to right,#2E3192 ,#1BFFFF);">
+                  <div>
+                    <div>
+                      <ul>
+                        <li class="hovertochange"><a href="#">Home</a></li>
+                        <li class="hovertochange"><a href="#">Events</a></li>
+                        <li class="hovertochange"><a href="#">Sponsors</a></li>
+                        <li class="hovertochange"><a href="#">Teams and Domains</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="uparrow" id="uparrow" style="color: white;">
+                <a href="#" style="color: white;"><i class="fas fa-chevron-up "></i></a>
+            </div>
+            <div class="left" data-aos="fade-up">
+                <h1>Elan and &#951;vision</h1>
+                <div class="tagline">THE GREATEST TECHO-CULTURAL FIESTA<br>IN AP &amp; TELANGANA
+                </div>
+            </div>
+            <div class="nextview animatethis" id="nextview">
+                <i style="color: rgba(255, 255, 255, 0.726);cursor: pointer;"
+                    class="fas fa-2x fa-angle-double-down"></i>
+            </div>
+        </div>
+        <div class="about" id="about"
+            style="background:url('images/giphy.gif');background-repeat: no-repeat;background-size: cover;color:white;background-position: center;font-family: 'Poppins', sans-serif;">
+            <div class="intro-text" data-aos="fade-up" data-aos-once="true"
+                style="font-size: calc(11px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));">
+                Elan and ηVision is the annual techno-cultural fest of IIT Hyderabad and is one of the largest fests in
+                South India. Elan refers to the cultural part and ηVision cites the technological part of fest. Elan &
+                ηVision boasts of several professional and semi-professional crowd pulling events and memorable
+                pro-shows. It promises to be a grand event that exhibits the best of cultural performances, technical
+                solutions, and advances from the student community. Students hail from various institutes throughout the
+                country and take away bagful memories and experiences.
+                <img src="images/Fest.jpg" data-aos="fade-up">
+            </div>
+            <h1 style="text-align: center;font-size: calc(60px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));"
+                data-aos="fade-up" data-aos-once="true">About Us</h1>
+            <div class="about-text no-display" data-aos="fade-up" data-aos-once="true"
+                style="font-size: calc(11px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));">
+                <img src="images/about.jpg" data-aos="fade-up">
+                This fest is held in the campus of IIT Hyderabad and is completely organised by the students. Right
+                after the fest gets completed, preparations for the next year’s fest begin. Students of IITH amalgamate
+                into a team and put all their efforts into organising this fest. The whole organising team is divided
+                into 19 domains. Each domain has its own motive and functionality. All the domains coordinate with each
+                other and host this fabulous fest.
+
+            </div>
+            <div class="about-text one-display"
+                style="font-size: calc(11px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));">
+                This fest is held in the campus of IIT Hyderabad and is completely organised by the students. Right
+                after the fest gets completed, preparations for the next year’s fest begin. Students of IITH amalgamate
+                into a team and put all their efforts into organising this fest. The whole organising team is divided
+                into 19 domains. Each domain has its own motive and functionality. All the domains coordinate with each
+                other and host this fabulous fest.
+                <img src="images/about.jpg">
+
+            </div>
+        </div>
+        <div class="generalstats">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-main first-l"
+                        style="text-align: center;font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));font-family: 'Montserrat', sans-serif;">
+                        <h1 style="font-size: calc(35px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));">General Stats
+                        </h1>
+                        <div class="col relie" data-aos="fade-down" data-aos-once="true">13th Edition</div>
+                        <div class="col relie" data-aos="fade-down" data-aos-once="true">4 Days</div>
+                        <div class="col relie" data-aos="fade-down" data-aos-once="true">200+ Colleges</div>
+                        <div class="col relie" data-aos="fade-down" data-aos-once="true">40+ Events</div>
+                    </div>
+                    <div class="break">
+                        <hr>
+                    </div>
+                    <div class="col col-main last"
+                        style="text-align: center;font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));font-family: 'Montserrat', sans-serif;">
+                        <h1 style="font-size: calc(35px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));">Online
+                            Outreach</h1>
+                        <div class="col relie" data-aos="fade-down" data-aos-once="true">Facebook: 42,000+likes</div>
+                        <div class="col relie" data-aos="fade-down" data-aos-once="true">Instagram: 2300+Followers</div>
+                        <div class="col relie" data-aos="fade-down" data-aos-once="true">Website: 50lakh+ Clicks</div>
+                        <div class="col relie" data-aos="fade-down" data-aos-once="true">Twitter: 1000+Followers</div>
+                        <div class="col relie" data-aos="fade-down" data-aos-once="true">Youtube: 61,000+Views</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Event" id="Event" style="overflow:hidden">
+            <img src="images/eventscollage.jpg">
+        </div>
+        <div id="Sponsor" class="Sponsor">
+            <h1 data-aos="fade-down" style="overflow-x: hidden;">Our Sponsors</h1>
+            <div class="swiper-container mySwiper" style="overflow-x: hidden;">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="logos/Arcesium.png" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="logos/Airmeet.png" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="logos/LT.jpg" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="logos/Honeywell.png" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="logos/LIC.jpg" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="logos/NTPC.png" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="logos/SBI.png" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="logos/Canaraweb.jpg" loading="lazy" />
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+        <footer class="text-center text-light text-white"
+            style="background: radial-gradient(#0e1013,#04163c);overflow: hidden;font-family: 'Montserrat', sans-serif;">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Links -->
+                <section class="">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="mb-4">
+                                <i class="fas fa-gem me-3"></i><b>Elan &amp; &#951;vision</b>
+                            </h6>
+                            <a href="#"><img width="200px" height="200px" data-aos="fade-up" data-aos-once="true"
+                                    src="images/elannvision.png"></a>
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 usefullinks">
+                            <h6 class="text-uppercase mb-4 font-weight-bold"><b>Useful Links</b></h6>
+                            <p data-aos="fade-up" data-aos-once="true">
+                                <a class="text-white" href="https://iith.ac.in/" target="_blank"
+                                    style="text-decoration: none;">IITH Website</a>
+                            </p>
+                            <p data-aos="fade-up" data-aos-once="true">
+                                <a class="text-white" href="https://gymkhana.iith.ac.in/" target="_blank"
+                                    style="text-decoration: none;">Gymkhana IITH</a>
+                            </p>
+                        </div>
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" style="text-align: left;">
+                            <h6 class="text-uppercase mb-4 font-weight-bold"><b>Contact us</b></h6>
+                            <p data-aos="fade-up" data-aos-once="true"><i class="fas fa-home mr-3"></i> Elan &amp;
+                                &#951;vision Web Team</p>
+                            <p data-aos="fade-up" data-aos-once="true"><i
+                                    class="fas fa-envelope mr-3 me-2"></i>elan@iith.ac.in</p>
+                            <p data-aos="fade-up" data-aos-once="true"><i class="fas fa-phone mr-3"></i> +91 79952 04145
+                            </p>
+                            <p data-aos="fade-up" data-aos-once="true"><i class="fas fa-phone mr-3"></i> +91 93261 68076
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold"><b>Follow us</b></h6>
+
+                            <!-- Facebook -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998"
+                                href="https://www.facebook.com/elan.iithyderabad" target="_blank" role="button"><i
+                                    class="fab fa-facebook-f"></i></a>
+
+                            <!-- Twitter -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee"
+                                href="https://twitter.com/elan_nvision" target="_blank" role="button"><i
+                                    class="fab fa-twitter"></i></a>
+
+                            <!-- Google -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39"
+                                href="https://www.youtube.com/user/ElanIITHyderabad" target="_blank" role="button"><i
+                                    class="fab fa-youtube"></i></a>
+
+                            <!-- Instagram -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac"
+                                href="https://www.instagram.com/elan_nvision.iith/" target="_blank" role="button"><i
+                                    class="fab fa-instagram"></i></a>
+
+                            <!-- Linkedin -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca"
+                                href="https://www.linkedin.com/company/elan-nvision-iith/" target="_blank"
+                                role="button"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2021 Copyright: Elan &amp; &#951;vision Web team
+                <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+        <!-- End of .container -->
+        <!-- Footer -->
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                duration: 1200
+            }
+        )
+    </script>
+    <!-- SwiperJs for including a customised slider -->
+    <script src="js/swiper.js"></script>
+    <script>
+        let toppage = document.getElementById('nextview');
+        let next = document.getElementById('about');
+        toppage.addEventListener("click", () => {
+            next.scrollIntoView();
+        })
+    </script>
+</body>
+
+</html>
