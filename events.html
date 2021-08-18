@@ -1,0 +1,760 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Events.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <title>Events</title>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // Added preloader using onload function as below and display property
+        window.onload = function () {
+            document.getElementById('preloader').style.display = "none";
+            document.getElementById('loaded').style.display = "block";
+        }
+    </script>
+
+    <style>
+        #preloader {
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 350px;
+            width: 350px;
+        }
+
+        #preloader img {
+            height: 300px;
+            width: 300px;
+        }
+
+        #loaded {
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="preloader">
+        <img src="images/loader-gif.gif">
+        <!-- Adding a preloader loader.gif on before loading-->
+    </div>
+    <div id="loaded"></div>
+
+    <div class="main-container">
+        <div class="header" id="header" style="background: none; height: auto; width: auto;">
+            <div class="logo" id="logo"
+                style="position: sticky;top:0;width:100px;height: 100px;top: 2vh;margin-left: 2vw;">
+                <a href="#"><img width="100px" class="logohover" height="100px" src="images/logo.png"></a>
+            </div>
+            <div class="menu-wrap" id="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger">
+                    <div></div>
+                </div>
+                <div class="menu" style="background: linear-gradient(to right,#2E3192 ,#1BFFFF);">
+                    <div>
+                        <div>
+                            <ul>
+                                <li class="hovertochange"><a href="#">Home</a></li>
+                                <li class="hovertochange"><a href="#">Events</a></li>
+                                <li class="hovertochange"><a href="#">Sponsors</a></li>
+                                <li class="hovertochange"><a href="#">Teams and Domains</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-container">
+
+
+                <div class="col-md-5">
+                    <div id="CarouselTest-top" class="carousel slide carousel-fade" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#CarouselTest-top" data-slide-to="0" class="active"></li>
+                            <li data-target="#CarouselTest-top" data-slide-to="1"></li>
+                            <li data-target="#CarouselTest-top" data-slide-to="2"></li>
+                            <li data-target="#CarouselTest-top" data-slide-to="3"></li>
+                            <li data-target="#CarouselTest-top" data-slide-to="4"></li>
+
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block " src="images/c-2.JPG" alt="" height="400px" width="100%">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="animate__animated animate__backInLeft tracking-in-contract-bck">Kailash
+                                        Kher
+                                    </h5>
+
+                                </div>
+
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block " src="images/c-1.jpg" alt="" height="400px" width="100%">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="animate__animated animate__backInLeft tracking-in-contract-bck">Shirley
+                                        Setia
+                                    </h5>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block " src="images/c-3.JPG" alt="" height="400px" width="100%">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="animate__animated animate__backInLeft tracking-in-contract-bck">Shirley
+                                        Setia
+                                    </h5>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block " src="images/c-4.JPG" alt="" height="400px" width="100%">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="animate__animated animate__backInLeft tracking-in-contract-bck">Darshan
+                                        Raval
+                                    </h5>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block " src="images/c-5.JPG" alt="" height="400px" width="100%">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="animate__animated animate__backInLeft tracking-in-contract-bck">Shirley
+                                        Setia
+                                    </h5>
+
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#CarouselTest-top" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#CarouselTest-top" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div
+        style=" background-image: url('images/Events-back-2.JPG'); background-repeat: no-repeat;background-attachment: fixed;  background-size: 100% 100%; ">
+
+        <div class="container py-3" style="margin-left:0px">
+            <!-- Card Start -->
+            <div class="card" data-aos="fade-left">
+                <div class="row ">
+
+                    <div class="col-md-7 px-3">
+                        <div class="card-block px-6">
+                            <h3 class=" text-center font-weight-bold">Informals </h3>
+                            <p class="card-text">
+                                Infi events are synonymous with fun. Here we bring you a list of competitions to enjoy
+                                your time well as to get rid of that piling up stress. Infi promises to give memories
+                                for gangs of friends with a wide variety of fun-filled games.
+                                <br>
+                                Events conducted by Informals last year (Elan 2021)
+                            <h4>Mr. & Ms. Elan 2021</h4>
+                            <h4>Meme Making Competition</h4>
+                            <h4>Best PickUp line</h4>
+                            <h4>Quiz Hub</h4>
+                            <h4>Chess Tournament</h4>
+                            <h4>Valorant</h4>
+                            </p>
+
+                        </div>
+                    </div>
+                    <!-- Carousel start -->
+                    <div class="col-md-5">
+                        <div id="CarouselTest" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#CarouselTest" data-slide-to="0" class="active"></li>
+                                <li data-target="#CarouselTest" data-slide-to="1"></li>
+                                <li data-target="#CarouselTest" data-slide-to="2"></li>
+
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block " src="images/infi-1.JPG" alt="" height="400px" width="500px">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block " src="images/infi-2.webp" alt="" height="400px" width="500px">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block " src="images/infi-3.JPG" alt="" height="400px" width="500px">
+                                </div>
+                                <a class="carousel-control-prev" href="#CarouselTest" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#CarouselTest" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of carousel -->
+                </div>
+            </div>
+            <!-- End of card -->
+        </div>
+        <div class="container py-3" style="margin-right:0px">
+            <!-- Card Start -->
+            <div class="card" data-aos="fade-right">
+                <div class="row ">
+
+                    <div class="col-md-7 px-3">
+                        <div class="card-block px-6">
+                            <h3 class=" text-center font-weight-bold">Litr </h3>
+                            <p class="card-text">
+                                A fest is never complete without Literary Events. The charge of all the literary events
+                                of the fest is the Litr Domain. Along with an online LitFest, which usually happens a
+                                few months before the fest, we also conduct a few of the most anticipated events. Such
+                                as Cryptex, our Online Treasure Hunt.
+                                <br>
+                                Events conducted by Litr last year (Elan 2021)
+                            <h4>Plot the Twist</h4>
+                            <h4>Two Line Terror</h4>
+                            <h4>My Heartthrob</h4>
+                            <h4>Just Kidding</h4>
+                            <h4>Inked Verses</h4>
+                        </div>
+                    </div>
+                    <!-- Carousel start -->
+                    <div class="col-md-5">
+                        <div id="CarouselTest-1" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#CarouselTest-1" data-slide-to="0" class="active"></li>
+                                <li data-target="#CarouselTest-1" data-slide-to="1"></li>
+                                <li data-target="#CarouselTest-1" data-slide-to="2"></li>
+
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block " src="images/litr-1.jpeg" alt="" height="400px" width="500px">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block " src="images/litr-2.png" alt="" height="400px" width="500px">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block " src="images/litr-3.png" alt="" height="400px" width="500px">
+                                </div>
+                                <a class="carousel-control-prev" href="#CarouselTest-1" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#CarouselTest-1" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of carousel -->
+                </div>
+            </div>
+            <!-- End of card -->
+        </div>
+        <div class="container py-3" style="margin-left:0px">
+            <!-- Card Start -->
+            <div class="card" data-aos="fade-left">
+                <div class="row ">
+
+                    <div class="col-md-7 px-3">
+                        <div class="card-block px-6">
+                            <h3 class=" text-center font-weight-bold">Social Cause </h3>
+                            <p class="card-text">
+                                Our fests’ aim is not only to have fun and exciting events but also to bring a change in
+                                the current world with various initiatives. Every year we come up with a new social
+                                cause and ensure that events that promote the social cause are organized.
+                                <br>
+                                Our last years’ social cause theme was ‘Mental Health Awareness - Break the Stigma’
+                                <br>
+                                Childhood - the most important phase, capable of shaping and moulding lives. While most
+                                of us are in our late teens or early twenties, we help you to relax a bit by taking a
+                                jog down your memory lane.
+
+                        </div>
+                    </div>
+                    <!-- Carousel start -->
+                    <div class="col-md-5">
+                        <div id="CarouselTest-2" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#CarouselTest-2" data-slide-to="0" class="active"></li>
+                                <li data-target="#CarouselTest-2" data-slide-to="1"></li>
+                                <li data-target="#CarouselTest-2" data-slide-to="2"></li>
+
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block" src="images/social cause-1.jpg" alt="" height="400px"
+                                        width="500px">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="images/social cause-2.jpg" alt="" height="400px"
+                                        width="500px">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="images/social cause-3.png" alt="" height="400px"
+                                        width="500px">
+                                </div>
+                                <a class="carousel-control-prev" href="#CarouselTest-2" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#CarouselTest-2" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of carousel -->
+                </div>
+            </div>
+            <!-- End of card -->
+        </div>
+        <div class="container py-3" style="margin-right:0px">
+            <!-- Card Start -->
+            <div class="card" data-aos="fade-right">
+                <div class="row ">
+
+                    <div class="col-md-7 px-3">
+                        <div class="card-block px-6">
+                            <h3 class=" text-center font-weight-bold">Sangarsh </h3>
+                            <p class="card-text">
+                                Initiatives are introduced and live sessions are conducted, Sangarsh where we invite
+                                renowned mental health speakers and experts to share their knowledge.
+                                <br>
+                                A Talk Show with - Alcatraz Dey, about his journey of recovering from depression.
+                                <br>
+                                A Talk Show with - Dr. Nisha Khanna, on how to deal with behavioural and psychological
+                                problems.
+                                <br>
+                                A Talk Show with - Reshma Valliapan, about understanding mental health with creativity.
+                        </div>
+                    </div>
+                    <!-- Carousel start -->
+                    <div class="col-md-5">
+                        <div id="CarouselTest-3" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#CarouselTest-3" data-slide-to="0" class="active"></li>
+                                <li data-target="#CarouselTest-3" data-slide-to="1"></li>
+                                <li data-target="#CarouselTest-3" data-slide-to="2"></li>
+
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block" src="images/sangarsh-1.jpg" alt="" height="400px"
+                                        width="500px">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="images/sangarsh-2.jpg" alt="" height="400px"
+                                        width="500px">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="images/sangarsh-3.jpg" alt="" height="400px"
+                                        width="500px">
+                                </div>
+                                <a class="carousel-control-prev" href="#CarouselTest-3" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#CarouselTest-3" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of carousel -->
+                </div>
+            </div>
+            <!-- End of card -->
+        </div>
+        <div class="container py-3" style="margin-left:0px">
+            <!-- Card Start -->
+            <div class="card" data-aos="fade-left">
+                <div class="row ">
+
+                    <div class="col-md-7 px-3">
+                        <div class="card-block px-6">
+                            <h3 class=" text-center font-weight-bold">Pronites </h3>
+                            <p class="card-text">
+                                Apart from all the competitions, our fest never fails to entertain people with fun and
+                                exciting shows. Here is the list of the proshows conducted last year: (Elan 2021)<br>
+                            <h4>Indie Rock - Naalayak </h4>
+                            <h4>Talk with Shriya Pilgaonkar</h4>
+                            <h4>suhani shah show </h4>
+                            <h4>Comedy Night with Zakir Khan</h4>
+                        </div>
+                    </div>
+                    <!-- Carousel start -->
+                    <div class="col-md-5">
+                        <div id="CarouselTest-4" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#CarouselTest-4" data-slide-to="0" class="active"></li>
+                                <li data-target="#CarouselTest-4" data-slide-to="1"></li>
+                                <li data-target="#CarouselTest-4" data-slide-to="2"></li>
+
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block" src="images/pronites-1.jpg" alt="" height="400px"
+                                        width="500px">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="images/pronites-2.png" alt="" height="400px"
+                                        width="500px">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="images/pronites-3.JPG" alt="" height="400px"
+                                        width="500px">
+                                </div>
+                                <a class="carousel-control-prev" href="#CarouselTest-4" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#CarouselTest-4" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of carousel -->
+                </div>
+            </div>
+            <!-- End of card -->
+        </div>
+        <div class="container py-3" style="margin-right:0px">
+            <!-- Card Start -->
+            <div class="card" data-aos="fade-right">
+                <div class="row ">
+
+                    <div class="col-md-7 px-3">
+                        <div class="card-block px-6">
+                            <h3 class=" text-center font-weight-bold">Workshops </h3>
+                            <p class="card-text">
+                                <span class="workshop">ETHICAL HACKING & CYBER SECURITY-</span> about the dangers we
+                                face online is very important in today’s world. It involves testing the system against
+                                all possible security breaches and solving any vulnerabilities in the system before any
+                                malicious attack even happens.<br>
+                                <span class="workshop">FACIAL & EMOTION RECOGNITION WITH DEEP LEARNING-</span> going
+                                deeper into facial recognition along with emotion recognition.<br>
+                                <span class="workshop">INTRODUCTION TO COMPUTER AIDED ENGINEERING-</span> in a world
+                                where everything is going to be online, this workshop has helped to learn the broad
+                                usage of computer software to aid in engineering analysis tasks.
+
+                        </div>
+                    </div>
+                    <!-- Carousel start -->
+                    <div class="col-md-5">
+                        <div id="CarouselTest-5" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#CarouselTest-5" data-slide-to="0" class="active"></li>
+                                <li data-target="#CarouselTest-5" data-slide-to="1"></li>
+                                <li data-target="#CarouselTest-5" data-slide-to="2"></li>
+
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block" src="images/workshop-1.jfif" alt="" height="400px"
+                                        width="500px">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="images/workshop-2.jpg" alt="" height="400px"
+                                        width="500px">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="images/workshop-3.jpg" alt="" height="400px"
+                                        width="500px">
+                                </div>
+                                <a class="carousel-control-prev" href="#CarouselTest-5" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#CarouselTest-5" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of carousel -->
+                </div>
+            </div>
+            <!-- End of card -->
+        </div>
+        <div class="container py-3" style="margin-left:0px">
+            <!-- Card Start -->
+            <div class="card" data-aos="fade-left">
+                <div class="row ">
+
+                    <div class="col-md-7 px-3">
+                        <div class="card-block px-6">
+                            <h3 class=" text-center font-weight-bold">Culti </h3>
+                            <p class="card-text">
+                                Captivating performances, beautiful artwork, thought-provoking films and much more!
+                                Every year, a number of talented artists use our stage to showcase their skills. Our
+                                CULTI events promise you with nothing but entertainment and a mind-boggling experience.
+                            <h4>Art Attack </h4>
+                            <h4>Breakfree</h4>
+                            <h4>Campus Idol</h4>
+                            <h4>Doodle Art</h4>
+                            <h4>Filmfare Fiesta</h4>
+                            <h4>Glitz & Glamour</h4>
+                            <h4>Nrityanjali</h4>
+                            <h4>Picelectric</h4>
+                            <h4>Standup</h4>
+                        </div>
+                    </div>
+                    <!-- Carousel start -->
+                    <div class="col-md-5">
+                        <div id="CarouselTest-6" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#CarouselTest-6" data-slide-to="0" class="active"></li>
+                                <li data-target="#CarouselTest-6" data-slide-to="1"></li>
+                                <li data-target="#CarouselTest-6" data-slide-to="2"></li>
+
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block" src="images/culti-1.JPG" alt="" height="400px" width="500px">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="images/culti-2.JPG" alt="" height="400px" width="500px">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="images/culti-3.JPG" alt="" height="400px" width="500px">
+                                </div>
+                                <a class="carousel-control-prev" href="#CarouselTest-6" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#CarouselTest-6" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of carousel -->
+                </div>
+            </div>
+            <!-- End of card -->
+        </div>
+        <div class="container py-3" style="margin-right:0px">
+            <!-- Card Start -->
+            <div class="card" data-aos="fade-right">
+                <div class="row ">
+
+                    <div class="col-md-7 px-3">
+                        <div class="card-block px-6">
+                            <h3 class=" text-center font-weight-bold">Techy </h3>
+                            <p class="card-text">
+                                From Hackathons to designing a CAD model, we have it all!
+                                App Development: Use your creativity to innovate an intriguing application for mobile
+                                platforms.
+                            <h4>CAD Pro</h4>
+                            <h4>Enigma</h4>
+                            <h4>Circuit Building</h4>
+                            <h4>Code Arduino</h4>
+                            <h4>Web Development</h4>
+                            <h4>Proquest</h4>
+                            <h4>Machina Doctrina’s</h4>
+                            <h4>DeepN</h4>
+                            <h4>Paper Presentation</h4>
+                            <h4>Hackathon</h4>
+                            <h4>SharkTank</h4>
+
+                        </div>
+                    </div>
+                    <!-- Carousel start -->
+                    <div class="col-md-5">
+                        <div id="CarouselTest-7" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#CarouselTest-7" data-slide-to="0" class="active"></li>
+                                <li data-target="#CarouselTest-7" data-slide-to="1"></li>
+                                <li data-target="#CarouselTest-7" data-slide-to="2"></li>
+
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block" src="images/techy-1.JPG" alt="" height="400px" width="500px">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="images/techy-2.JPG" alt="" height="400px" width="500px">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="images/techy-3.JPG" alt="" height="400px" width="500px">
+                                </div>
+                                <a class="carousel-control-prev" href="#CarouselTest-7" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#CarouselTest-7" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of carousel -->
+                </div>
+            </div>
+            <!-- End of card -->
+        </div>
+    </div>
+    <div>
+        <footer class="text-center text-light text-white"
+            style="background: radial-gradient(#0e1013,#04163c);overflow: hidden;font-family: 'Montserrat', sans-serif;">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Links -->
+                <section class="">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="mb-4">
+                                <i class="fas fa-gem me-3"></i><b>Elan &amp; &#951;vision</b>
+                            </h6>
+                            <img width="200px" height="200px" data-aos="fade-up" data-aos-once="true"
+                                src="images/elannvision.png">
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 usefullinks">
+                            <h6 class="text-uppercase mb-4 font-weight-bold"><b>Useful Links</b></h6>
+                            <p data-aos="fade-up" data-aos-once="true">
+                                <a class="text-white" href="https://iith.ac.in/" target="_blank"
+                                    style="text-decoration: none;">IITH Website</a>
+                            </p>
+                            <p data-aos="fade-up" data-aos-once="true">
+                                <a class="text-white" href="https://gymkhana.iith.ac.in/" target="_blank"
+                                    style="text-decoration: none;">Gymkhana IITH</a>
+                            </p>
+                        </div>
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" style="text-align: left;">
+                            <h6 class="text-uppercase mb-4 font-weight-bold"><b>Contact us</b></h6>
+                            <p data-aos="fade-up" data-aos-once="true"><i class="fas fa-home mr-3"></i> Elan &amp;
+                                &#951;vision Web Team</p>
+                            <p data-aos="fade-up" data-aos-once="true"><i
+                                    class="fas fa-envelope mr-3 me-2"></i>elan@iith.ac.in</p>
+                            <p data-aos="fade-up" data-aos-once="true"><i class="fas fa-phone mr-3"></i> +91 7995204145
+                            </p>
+                            <p data-aos="fade-up" data-aos-once="true"><i class="fas fa-phone mr-3"></i> +91 93261 68076
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold"><b>Follow us</b></h6>
+
+                            <!-- Facebook -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998"
+                                href="https://www.facebook.com/elan.iithyderabad" target="_blank" role="button"><i
+                                    class="fab fa-facebook-f"></i></a>
+
+                            <!-- Twitter -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee"
+                                href="https://twitter.com/elan_nvision" target="_blank" role="button"><i
+                                    class="fab fa-twitter"></i></a>
+
+                            <!-- Google -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39"
+                                href="https://www.youtube.com/user/ElanIITHyderabad" target="_blank" role="button"><i
+                                    class="fab fa-youtube"></i></a>
+
+                            <!-- Instagram -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac"
+                                href="https://www.instagram.com/elan_nvision.iith/" target="_blank" role="button"><i
+                                    class="fab fa-instagram"></i></a>
+
+                            <!-- Linkedin -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca"
+                                href="https://www.linkedin.com/company/elan-nvision-iith/" target="_blank"
+                                role="button"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2021 Copyright: Elan and &#951;vision Web team
+                <!-- Copyright -->
+        </footer>
+    </div>
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+    <script src="js/Events.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000
+        });
+    </script>
+    <script src="js/lazyload.js"></script>
+</body>
+
+</html>
