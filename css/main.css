@@ -121,11 +121,6 @@
         padding-bottom: 1vh;
     }
 }
-.footer{
-    background-color: rgb(0, 0, 0);
-    min-height:20vh;
-    width:100vw;
-}
 .Sponsor{
     width:100vw;
     height:50vh;
@@ -268,7 +263,7 @@
 }
 
 .generalstats{
-    background: radial-gradient(#0a0b0b,#130c0e);
+    background: linear-gradient(to right,#C33764 ,#1D2671);
 }
 /* Css for About section */
 .intro-text{
