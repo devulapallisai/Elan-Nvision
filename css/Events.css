@@ -171,7 +171,7 @@ h4{
 }
 .main-container::before{
   content: '';
-  background: url('../images/events/Events-back.jpg') 
+  background: url('../images/Events-back.jpg') 
       no-repeat center center/cover;
   position: absolute;
   /* opacity: 0.3; */
