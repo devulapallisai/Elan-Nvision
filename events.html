@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -85,15 +85,15 @@
                 <div class="menu-wrap" id="menu-wrap">
                     <input type="checkbox" class="toggler">
                     <div class="hamburger"><div></div></div>
-                    <div class="menu" style="background: linear-gradient(to right,#2E3192 ,#1BFFFF);">
+                    <div class="menu" style="background: linear-gradient(to right,#09203F ,#537895);">
                       <div>
                         <div>
-                          <ul>
-                            <li class="hovertochange"><a href="index.html" style="color:orange;font-family: Montserrat;">Home</a></li>
-                            <li class="hovertochange" style="font-family: 'Montserrat';"><a href="#" style="color:orange;font-family: Montserrat;">Events</a></li>
-                            <li class="hovertochange" style="font-family: 'Montserrat';"><a href="sponsors.html" style="color:orange;font-family: Montserrat;">Sponsors</a></li>
-                            <li class="hovertochange"><a href="#" style="color:orange;font-family: Montserrat;" >Teams and Domains</a></li>
-                          </ul>
+                            <ul>
+                                <li class="hovertochange" id="c1" data-text="Home"><span id="cl-1" class="commonwrong">&#10006;</span><a href="index.html" style="font-family: Montserrat;color: #1bfaad;">Home</a></li>
+                                <li class="hovertochange" id="c2" data-text="Events" ><span id="cl-2" class="commonwrong">&#10006;</span><a href="events.html" style="font-family: 'Montserrat';color: #1bfaad;">Events</a></li>
+                                <li class="hovertochange" id="c3" data-text="Sponsors"><span id="cl-3" class="commonwrong">&#10006;</span><a href="sponsors.html"style="font-family: 'Montserrat';color: #1bfaad;">Sponsors</a></li>
+                                <li class="hovertochange" id="c4" data-text="Teams and Domains"><span id="cl-4" class="commonwrong">&#10006;</span><a href="teamsanddomains.html" style="font-family: Montserrat;color: #1bfaad;" >Teams and Domains</a></li>
+                              </ul>
                         </div>
                       </div>
                     </div>
@@ -762,6 +762,22 @@
         AOS.init({
             duration: 2000
         });
+        let cl_1=document.getElementById('cl-1')
+        let cl_2=document.getElementById('cl-2')
+        let cl_3=document.getElementById('cl-3')
+        let cl_4=document.getElementById('cl-4')
+        let c1=document.getElementById('c1')
+        let c2=document.getElementById('c2')
+        let c3=document.getElementById('c3')
+        let c4=document.getElementById('c4')
+        c1.addEventListener("mouseover",()=>{cl_1.style.color="red"})
+        c1.addEventListener("mouseleave",()=>{cl_1.style.color="rgba(107, 201, 255, 0.116)"})
+        c2.addEventListener("mouseover",()=>{cl_2.style.color="red"})
+        c2.addEventListener("mouseleave",()=>{cl_2.style.color="rgba(107, 201, 255, 0.116)"})
+        c3.addEventListener("mouseover",()=>{cl_3.style.color="red"})
+        c3.addEventListener("mouseleave",()=>{cl_3.style.color="rgba(107, 201, 255, 0.116)"})
+        c4.addEventListener("mouseover",()=>{cl_4.style.color="red"})
+        c4.addEventListener("mouseleave",()=>{cl_4.style.color="rgba(107, 201, 255, 0.116)"})
     </script>
     <script src="js/lazyload.js"></script>
 </body>
