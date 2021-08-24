@@ -75,8 +75,7 @@
     <div id="preloader">
         <img src="images/loader-gif.gif">
         <!-- Adding a preloader loader.gif on before loading-->
-    </div> 
-    
+    </div>
     <div id="loaded">
         <div class="header" id="header">
             <div class="logo" id="logo"
@@ -86,14 +85,14 @@
             <div class="menu-wrap" id="menu-wrap">
                 <input type="checkbox" class="toggler">
                 <div class="hamburger"><div></div></div>
-                <div class="menu" style="background: linear-gradient(to right,#09203F ,#537895);">
+                <div class="menu" style="background: linear-gradient(to right,#2E3192 ,#1BFFFF);">
                   <div>
                     <div>
                         <ul>
-                            <li class="hovertochange" id="c1" data-text="Home"><span id="cl-1" class="commonwrong">&#10006;</span><a href="index.html" style="font-family: Montserrat;color: #1bfaad;">Home</a></li>
-                            <li class="hovertochange" id="c2" data-text="Events" ><span id="cl-2" class="commonwrong">&#10006;</span><a href="events.html" style="font-family: 'Montserrat';color: #1bfaad;">Events</a></li>
-                            <li class="hovertochange" id="c3" data-text="Sponsors"><span id="cl-3" class="commonwrong">&#10006;</span><a href="sponsors.html"style="font-family: 'Montserrat';color: #1bfaad;">Sponsors</a></li>
-                            <li class="hovertochange" id="c4" data-text="Teams and Domains"><span id="cl-4" class="commonwrong">&#10006;</span><a href="teamsanddomains.html" style="font-family: Montserrat;color: #1bfaad;" >Teams and Domains</a></li>
+                            <li class="hovertochange"><a href="#" style="color:orange;font-family: Montserrat;">Home</a></li>
+                            <li class="hovertochange" style="font-family: 'Montserrat';"><a href="events.html" style="color:orange;font-family: Montserrat;">Events</a></li>
+                            <li class="hovertochange" style="font-family: 'Montserrat';"><a href="sponsors.html" style="color:orange;font-family: Montserrat;">Sponsors</a></li>
+                            <li class="hovertochange"><a href="#" style="color:orange;font-family: Montserrat;" >Teams and Domains</a></li>
                           </ul>
                     </div>
                   </div>
@@ -122,13 +121,13 @@
                 pro-shows. It promises to be a grand event that exhibits the best of cultural performances, technical
                 solutions, and advances from the student community. Students hail from various institutes throughout the
                 country and take away bagful memories and experiences.
-                <img src="images/Fest.jpg" style="border:5px solid white" data-aos="fade-up">
+                <img src="images/Fest.jpg" data-aos="fade-up">
             </div>
             <h1 style="text-align: center;font-size: calc(60px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));"
                 data-aos="fade-up" data-aos-once="true">About Us</h1>
             <div class="about-text no-display" data-aos="fade-up" data-aos-once="true"
                 style="font-size: calc(11px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));">
-                <img src="images/about.jpg" style="border:5px solid rgb(255, 255, 255)" data-aos="fade-up">
+                <img src="images/about.jpg" data-aos="fade-up">
                 This fest is held in the campus of IIT Hyderabad and is completely organised by the students. Right
                 after the fest gets completed, preparations for the next year’s fest begin. Students of IITH amalgamate
                 into a team and put all their efforts into organising this fest. The whole organising team is divided
@@ -143,7 +142,7 @@
                 into a team and put all their efforts into organising this fest. The whole organising team is divided
                 into 19 domains. Each domain has its own motive and functionality. All the domains coordinate with each
                 other and host this fabulous fest.
-                <img src="images/about.jpg" style="border:5px solid white">
+                <img src="images/about.jpg">
 
             </div>
         </div>
@@ -312,22 +311,6 @@
                 duration: 1200
             }
         )
-        let cl_1=document.getElementById('cl-1')
-        let cl_2=document.getElementById('cl-2')
-        let cl_3=document.getElementById('cl-3')
-        let cl_4=document.getElementById('cl-4')
-        let c1=document.getElementById('c1')
-        let c2=document.getElementById('c2')
-        let c3=document.getElementById('c3')
-        let c4=document.getElementById('c4')
-        c1.addEventListener("mouseover",()=>{cl_1.style.color="red"})
-        c1.addEventListener("mouseleave",()=>{cl_1.style.color="rgba(107, 201, 255, 0.116)"})
-        c2.addEventListener("mouseover",()=>{cl_2.style.color="red"})
-        c2.addEventListener("mouseleave",()=>{cl_2.style.color="rgba(107, 201, 255, 0.116)"})
-        c3.addEventListener("mouseover",()=>{cl_3.style.color="red"})
-        c3.addEventListener("mouseleave",()=>{cl_3.style.color="rgba(107, 201, 255, 0.116)"})
-        c4.addEventListener("mouseover",()=>{cl_4.style.color="red"})
-        c4.addEventListener("mouseleave",()=>{cl_4.style.color="rgba(107, 201, 255, 0.116)"})
     </script>
     <!-- SwiperJs for including a customised slider -->
     <script src="js/swiper.js"></script>
