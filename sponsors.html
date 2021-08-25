@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -72,7 +72,7 @@
   </div>
   <div id="loaded" class="loaded">
     <div class="header" id="header" style="background: none; height: auto; width: auto;">
-      <div class="logo" id="logo" style="position: sticky;top:0;width:100px;height: 100px;top: 2vh;margin-left: 2vw;">
+      <div class="logo" id="logo" style="position: sticky;top:0;width:100px;height: 100px;top: 2vh;margin-left: 2vw;z-index:1000000">
         <a href="#"><img width="100px" class="logohover" height="100px" src="images/logo.png"></a>
       </div>
       <div class="menu-wrap" id="menu-wrap">
@@ -162,20 +162,20 @@
 
       <div class="album py-5 ">
         <div class="container">
-          
-            <div class="col-md-8 col-sm-12 my-5 mx-auto ">
-              <div class="card-mb-4 shadow-sm  sponsors-img-1 myDIV">
-                <img class="img-fluid my-2" src="images/L&T.png" alt="">
-              </div>
-              <div class="hide my-1 ">Title Sponsor</div>
+
+          <div class="col-md-8 col-sm-12 my-5 mx-auto ">
+            <div class="card-mb-4 shadow-sm  sponsors-img-1 myDIV">
+              <img class="img-fluid my-2" src="images/L&T.png" alt="">
             </div>
-            <div class="col-md-8 col-sm-12 my-5 mx-auto ">
-              <div class="card mb-4 shadow-sm sponsors-img-1 myDIV">
-                <img class="img-fluid" src="images/Arcesium.png" alt="">
-              </div>
-              <div class="hide my-1">Technology Sponsor</div>
+            <div class="hide my-1 ">Title Sponsor</div>
+          </div>
+          <div class="col-md-8 col-sm-12 my-5 mx-auto ">
+            <div class="card mb-4 shadow-sm sponsors-img-1 myDIV">
+              <img class="img-fluid" src="images/Arcesium.png" alt="">
             </div>
-         
+            <div class="hide my-1">Technology Sponsor</div>
+          </div>
+
 
           <div class="sponsors ">
             <h1 class="sponsors-sub-heading tracking-in-contract-bck ">Major Sponsors</h1>
@@ -530,6 +530,22 @@
     AOS.init({
       duration: 2000
     });
+    let cl_1 = document.getElementById('cl-1')
+    let cl_2 = document.getElementById('cl-2')
+    let cl_3 = document.getElementById('cl-3')
+    let cl_4 = document.getElementById('cl-4')
+    let c1 = document.getElementById('c1')
+    let c2 = document.getElementById('c2')
+    let c3 = document.getElementById('c3')
+    let c4 = document.getElementById('c4')
+    c1.addEventListener("mouseover", () => { cl_1.style.color = "red" })
+    c1.addEventListener("mouseleave", () => { cl_1.style.color = "rgba(107, 201, 255, 0.116)" })
+    c2.addEventListener("mouseover", () => { cl_2.style.color = "red" })
+    c2.addEventListener("mouseleave", () => { cl_2.style.color = "rgba(107, 201, 255, 0.116)" })
+    c3.addEventListener("mouseover", () => { cl_3.style.color = "red" })
+    c3.addEventListener("mouseleave", () => { cl_3.style.color = "rgba(107, 201, 255, 0.116)" })
+    c4.addEventListener("mouseover", () => { cl_4.style.color = "red" })
+    c4.addEventListener("mouseleave", () => { cl_4.style.color = "rgba(107, 201, 255, 0.116)" })
   </script>
   <!-- <script src="js/sponsors.js"></script> -->
   <script src="js/lazyload.js"></script>
