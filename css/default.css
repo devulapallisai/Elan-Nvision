@@ -16,7 +16,7 @@ body,ul,table,form {
      font-family: 'Pacifico', cursive;
      color: white;
     font-weight: 700;
-    z-index: 10000;
+    z-index: 1000;
     width: fit-content;
     margin: 0 auto;
     position: relative;
