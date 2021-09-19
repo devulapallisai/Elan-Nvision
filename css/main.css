@@ -1,5 +1,7 @@
 .left{
-    width:36vw;
+    width:38vw;
+    
+font-family: 'Are You Serious', cursive;
 }
 *{
     padding: 0;
@@ -9,7 +11,7 @@
 }
 .left h1{
     font-weight: bolder;
-    font-size: 8vw;
+    font-size: 9vw;
     margin-bottom: 0;
 }
 /* For the fixed arrow to naviagte up on any section */
