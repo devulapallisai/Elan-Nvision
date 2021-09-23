@@ -13,6 +13,7 @@ font-family: 'Are You Serious', cursive;
     font-weight: bolder;
     font-size: 9vw;
     margin-bottom: 0;
+    letter-spacing: 1.5px;
 }
 /* For the fixed arrow to naviagte up on any section */
 .uparrow{
@@ -26,6 +27,13 @@ font-family: 'Are You Serious', cursive;
     border:2px solid rgba(0, 0, 0, 0.418);
     background-color:rgba(0, 0, 0, 0.400);
     z-index: 200;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.uparrow.active{
+    visibility: visible;
+    opacity: 1;
 }
 .uparrow:hover{
     background-color: #1ABC9C;

@@ -27,7 +27,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Are+You+Serious&family=Playfair+Display+SC:wght@900&family=Gloria+Hallelujah&family=Kaushan+Script&family=Reenie+Beanie&family=Yellowtail&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Are+You+Serious&family=Playfair+Display+SC:wght@700&family=Gloria+Hallelujah&family=Kaushan+Script&family=Reenie+Beanie&family=Yellowtail&display=swap"
         rel="stylesheet">
     <script>
         // Added preloader using onload function as below and display property
@@ -146,9 +146,11 @@
                     </div>
                 </div>
             </div>
+            <a href="#" style="color: white;">
             <div class="uparrow" id="uparrow" style="color: white;">
-                <a href="#" style="color: white;"><i class="fas fa-chevron-up "></i></a>
+                <i class="fas fa-chevron-up "></i>
             </div>
+        </a>
             <div class="left" data-aos="fade-up">
 
                 <h1 style="font-family: 'Playfair Display SC', serif; 
@@ -377,6 +379,10 @@
                 duration: 1200
             }
         )
+        window.addEventListener('scroll',function(){
+            var scroll=document.querySelector('.uparrow');
+            scroll.classList.toggle("active",window.scrollY>500)
+        })
         let cl_1 = document.getElementById('cl-1')
         let cl_2 = document.getElementById('cl-2')
         let cl_3 = document.getElementById('cl-3')
@@ -397,7 +403,7 @@
         c4.addEventListener("mouseleave", () => { cl_4.style.color = "rgba(107, 201, 255, 0.116)" })
         c5.addEventListener("mouseover", () => { cl_5.style.color = "red" })
         c5.addEventListener("mouseleave", () => { cl_5.style.color = "rgba(107, 201, 255, 0.116)" })
-
+        
     </script>
     <!-- SwiperJs for including a customised slider -->
     <script src="js/swiper.js"></script>
