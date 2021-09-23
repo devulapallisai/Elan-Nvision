@@ -35,22 +35,6 @@
         }
     </script>
     <style>
-        #preloader {
-            position: absolute;
-            margin: auto;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 300px;
-            width: 350px;
-        }
-
-        #preloader img {
-            height: 300px;
-            width: 350px;
-        }
-
         #loaded {
             display: none;
         }
@@ -62,6 +46,11 @@
         ::-webkit-scrollbar-button {
             display: none;
         }
+        @-moz-document url-prefix() { /* Disable scrollbar Firefox */
+            html{
+              scrollbar-width: none;
+            }
+          }
 
         body {
             -ms-overflow-style: none;
