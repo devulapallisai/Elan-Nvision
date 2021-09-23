@@ -17,6 +17,11 @@
     </link>
     
     <style>
+        @-moz-document url-prefix() { /* Disable scrollbar Firefox */
+            html{
+              scrollbar-width: none;
+            }
+          }
         ::-webkit-scrollbar {
             display: none;
         }

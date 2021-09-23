@@ -41,7 +41,11 @@
       height: 300px;
       width: 350px;
     }
-
+    @-moz-document url-prefix() { /* Disable scrollbar Firefox */
+            html{
+              scrollbar-width: none;
+            }
+          }
     #preloader img {
       height: 300px;
       width: 350px;
