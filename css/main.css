@@ -47,11 +47,14 @@ font-family: 'Are You Serious', cursive;
 }
 @keyframes left{
     from {
-      text-shadow: 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #e60073, 0 0 6px #e60073, 0 0 7px #e60073, 0 0 8px #e60073, 0 0 9px #e60073;
+      /* text-shadow: 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #b3924c, 0 0 6px #b49247, 0 0 7px #c29639, 0 0 8px #c9921b, 0 0 9px #df9d0e; */
+      /* text-shadow: 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #b4b0a7, 0 0 6px #c4bfb4, 0 0 7px #a39f96, 0 0 8px #918d83, 0 0 9px #817e78; */
+      text-shadow: 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #b68e39, 0 0 6px #aa7f23, 0 0 7px #ad8119, 0 0 8px #be8d10, 0 0 9px #bb7f06;
     }
     
     to {
-      text-shadow: 0 0 4px #fff, 0 0 5px #d387ad, 0 0 6px #e66ba8, 0 0 7px #e76aa9, 0 0 8px #f860ac, 0 0 9px #f763ad, 0 0 10px #ff51a8;
+      /* text-shadow: 0 0 4px #fff, 0 0 5px #c0a979, 0 0 6px #bda063, 0 0 7px #bb9137, 0 0 8px #b98c2a, 0 0 9px #c9962a, 0 0 10px #d69c1e; */
+      text-shadow: 0 0 4px #fff, 0 0 5px #997e44, 0 0 6px #9c7a2b, 0 0 7px #a17a1e, 0 0 8px #aa8619, 0 0 9px #b38313, 0 0 10px #ac7303;
     }
 }
 /* For Tagline The Greatest.. */
