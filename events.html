@@ -36,48 +36,52 @@
     </script>
     <style>
         #preloader {
-          position: absolute;
-          margin: auto;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          height: 300px;
-          width: 350px;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 300px;
+            width: 350px;
         }
-        @-moz-document url-prefix() { /* Disable scrollbar Firefox */
-                html{
-                  scrollbar-width: none;
-                }
-              }
+
+        @-moz-document url-prefix() {
+
+            /* Disable scrollbar Firefox */
+            html {
+                scrollbar-width: none;
+            }
+        }
+
         #preloader img {
-          height: 300px;
-          width: 350px;
+            height: 300px;
+            width: 350px;
         }
-    
+
         #loaded {
-          display: none;
+            display: none;
         }
-    
+
         ::-webkit-scrollbar {
-          display: none;
+            display: none;
         }
-    
+
         ::-webkit-scrollbar-button {
-          display: none;
+            display: none;
         }
-    
+
         body {
-          -ms-overflow-style: none;
+            -ms-overflow-style: none;
         }
-      </style>
+    </style>
     <script src="https://kit.fontawesome.com/38b5a7225a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <div id="preloader">
-        <img  src="images/loader1.gif"  >
+        <img src="images/loader1.gif">
         <!-- Adding a preloader loader.gif on before loading-->
     </div>
     <div id="loaded">
@@ -112,6 +116,9 @@
                                     <li class="hovertochange" id="c4" data-text="Teams and Domains"><span id="cl-4"
                                             class="commonwrong">&#10006;</span><a href="teamsanddomains.html"
                                             style="font-family: Montserrat;color: #1bfaad;">Teams and Domains</a></li>
+                                    <li class="hovertochange" id="c6" data-text="Teams and Domains"><span id="cl-6"
+                                            class="commonwrong">&#10006;</span><a href="cryptex.html"
+                                            style="font-family: Montserrat;color: #1bfaad;">Cryptex</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -486,8 +493,8 @@
                                             width="500px">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block" src="images/Mental_health_matters.jpg" alt="" height="400px"
-                                            width="500px">
+                                        <img class="d-block" src="images/Mental_health_matters.jpg" alt=""
+                                            height="400px" width="500px">
                                     </div>
                                     <!-- <div class="carousel-item">
                             <img class="d-block" src="images/social cause-3.png" alt="" height="400px"
@@ -763,26 +770,30 @@
         AOS.init({
             duration: 2000
         });
-        let cl_1=document.getElementById('cl-1')
-        let cl_2=document.getElementById('cl-2')
-        let cl_3=document.getElementById('cl-3')
-        let cl_4=document.getElementById('cl-4')
-        let cl_5=document.getElementById('cl-5')
-        let c1=document.getElementById('c1')
-        let c2=document.getElementById('c2')
-        let c3=document.getElementById('c3')
-        let c4=document.getElementById('c4')
-        let c5=document.getElementById('c5')
-        c1.addEventListener("mouseover",()=>{cl_1.style.color="red"})
-        c1.addEventListener("mouseleave",()=>{cl_1.style.color="rgba(107, 201, 255, 0.116)"})
-        c2.addEventListener("mouseover",()=>{cl_2.style.color="red"})
-        c2.addEventListener("mouseleave",()=>{cl_2.style.color="rgba(107, 201, 255, 0.116)"})
-        c3.addEventListener("mouseover",()=>{cl_3.style.color="red"})
-        c3.addEventListener("mouseleave",()=>{cl_3.style.color="rgba(107, 201, 255, 0.116)"})
-        c4.addEventListener("mouseover",()=>{cl_4.style.color="red"})
-        c4.addEventListener("mouseleave",()=>{cl_4.style.color="rgba(107, 201, 255, 0.116)"})
-        c5.addEventListener("mouseover",()=>{cl_5.style.color="red"})
-        c5.addEventListener("mouseleave",()=>{cl_5.style.color="rgba(107, 201, 255, 0.116)"})
+        let cl_1 = document.getElementById('cl-1')
+        let cl_2 = document.getElementById('cl-2')
+        let cl_3 = document.getElementById('cl-3')
+        let cl_4 = document.getElementById('cl-4')
+        let cl_5 = document.getElementById('cl-5')
+        let cl_6 = document.getElementById('cl-6')
+        let c1 = document.getElementById('c1')
+        let c2 = document.getElementById('c2')
+        let c3 = document.getElementById('c3')
+        let c4 = document.getElementById('c4')
+        let c5 = document.getElementById('c5')
+        let c6 = document.getElementById('c6')
+        c1.addEventListener("mouseover", () => { cl_1.style.color = "red" })
+        c1.addEventListener("mouseleave", () => { cl_1.style.color = "rgba(107, 201, 255, 0.116)" })
+        c2.addEventListener("mouseover", () => { cl_2.style.color = "red" })
+        c2.addEventListener("mouseleave", () => { cl_2.style.color = "rgba(107, 201, 255, 0.116)" })
+        c3.addEventListener("mouseover", () => { cl_3.style.color = "red" })
+        c3.addEventListener("mouseleave", () => { cl_3.style.color = "rgba(107, 201, 255, 0.116)" })
+        c4.addEventListener("mouseover", () => { cl_4.style.color = "red" })
+        c4.addEventListener("mouseleave", () => { cl_4.style.color = "rgba(107, 201, 255, 0.116)" })
+        c5.addEventListener("mouseover", () => { cl_5.style.color = "red" })
+        c5.addEventListener("mouseleave", () => { cl_5.style.color = "rgba(107, 201, 255, 0.116)" })
+        c6.addEventListener("mouseover", () => { cl_6.style.color = "red" })
+        c6.addEventListener("mouseleave", () => { cl_6.style.color = "rgba(107, 201, 255, 0.116)" })
 
     </script>
     <script src="js/lazyload.js"></script>
